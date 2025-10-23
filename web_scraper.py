@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -33,3 +32,4 @@ with open("quotes.csv", "w", newline="", encoding="utf-8") as file:
         page += 1
 
 print("\n🎉 All quotes scraped successfully! Data saved to 'quotes.csv'")
+
